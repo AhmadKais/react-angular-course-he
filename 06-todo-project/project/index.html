@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Tasks</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="app">
+      <h1>My Tasks</h1>
+
+      <!-- A form: pressing Enter in the input also submits it -->
+      <form id="task-form">
+        <input id="task-input" type="text" placeholder="What do you need to do?">
+        <button type="submit">Add</button>
+      </form>
+
+      <p id="summary"></p>
+
+      <!-- JavaScript draws the tasks here -->
+      <ul id="task-list" class="task-list"></ul>
+
+      <button id="clear-btn" class="secondary">Clear done tasks</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

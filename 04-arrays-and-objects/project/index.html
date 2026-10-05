@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- The card is empty: JavaScript fills it from the data -->
+    <div class="card">
+      <img class="avatar" src="avatar.svg" alt="Profile photo">
+      <h1 id="name"></h1>
+      <h2 class="role" id="role"></h2>
+      <p id="about"></p>
+
+      <h3>My skills (<span id="skills-count">0</span>)</h3>
+      <ul class="skills" id="skills-list"></ul>
+
+      <div class="add-skill">
+        <input id="skill-input" type="text" placeholder="New skill...">
+        <button id="add-btn">Add</button>
+      </div>
+
+      <h3>Contact me</h3>
+      <p>Email: <a id="email-link"></a></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
