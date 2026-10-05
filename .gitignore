@@ -1,0 +1,7 @@
+# Earlier drafts of later chapters - kept locally, published when we reach them
+00-before-we-start/
+react/
+angular/
+
+node_modules/
+.DS_Store
