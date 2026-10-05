@@ -1,0 +1,93 @@
+body {
+  background-color: #f1f5f9;
+  font-family: Arial, sans-serif;
+  color: #334155;
+}
+
+/* The white box in the middle */
+.app {
+  background-color: white;
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #1e3a8a;
+  text-align: center;
+}
+
+/* Input and button in one row */
+form {
+  display: flex;
+  gap: 10px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* The list of tasks */
+.task-list {
+  padding: 0;
+  list-style: none;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* The text takes all the free space, so the delete button goes to the end */
+.task-list span {
+  flex: 1;
+}
+
+/* A done task: gray and crossed out */
+.task-list li.done span {
+  color: #94a3b8;
+  text-decoration: line-through;
+}
+
+.task-list li button {
+  background-color: transparent;
+  color: #dc2626;
+  padding: 5px 10px;
+}
+
+.task-list li button:hover {
+  background-color: #fee2e2;
+}
+
+/* The "Clear done tasks" button */
+.secondary {
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
+.secondary:hover {
+  background-color: #cbd5e1;
+}

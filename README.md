@@ -22,7 +22,11 @@
 
 ### חלק ב׳ – React
 
-*בקרוב* – מתחילים בבניית אותה רשימת משימות מחדש ב-React.
+| שיעור | נושא | מה לומדים | מה בונים |
+|:---:|---|---|---|
+| 7 | [React – הפרויקט הראשון, JSX ורכיבים](07-react-first-steps/) | Node.js ו-Vite, שרת הפיתוח, JSX ושישת הכללים, רכיבים, Props, `map` ו-`key` | כרטיסי ביקור – כמה אנשים מאותו רכיב |
+| 8 | [React – State, אירועים וטפסים](08-react-state-and-events/) | `useState`, `onClick`, הצגה בתנאי, שדה מבוקר, `onSubmit`, מערכים ב-State, פונקציה כ-Prop | רשימת המשימות משיעור 6 – ב-React |
+| 9 | React – קטלוג קורסים: חיפוש, סינון ו-`useEffect` | | *בקרוב* |
 
 ### חלק ג׳ – Angular
 
@@ -55,7 +59,9 @@
 - מחשב עם **Google Chrome**.
 - **VS Code** – בחינם, מ-[code.visualstudio.com](https://code.visualstudio.com).
 
-זהו. את Node.js נתקין רק כשנגיע ל-React.
+זהו. את **Node.js** נתקין בשיעור 7, כשמתחילים את React.
+
+> 💡 **פרויקטי React (שיעור 7 ואילך)** נשמרים **בלי** התיקייה `node_modules`. כדי להריץ אחד מהם: פותחים את תיקיית `project` ב-VS Code, ובטרמינל – `npm install` ואז `npm run dev`.
 
 ## 💡 איך ללמוד מהחומר
 
