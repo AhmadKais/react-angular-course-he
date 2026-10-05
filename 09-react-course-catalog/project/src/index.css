@@ -1,0 +1,118 @@
+body {
+  background-color: #f1f5f9;
+  font-family: Arial, sans-serif;
+  color: #334155;
+  margin: 0;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #1e3a8a;
+}
+
+/* Search, filter buttons and sort - in one row, wrapping on small screens */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: white;
+}
+
+input {
+  width: 250px;
+}
+
+button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+.filters {
+  display: flex;
+  gap: 5px;
+}
+
+/* The chosen filter button */
+.filters button.active {
+  background-color: #f97316;
+}
+
+/* The cards - side by side, wrapping to the next row */
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.course {
+  position: relative;
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.course h2 {
+  font-size: 20px;
+  color: #1e3a8a;
+}
+
+/* The star button in the corner of the card */
+.course .star {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: #f59e0b;
+  font-size: 24px;
+  padding: 0 5px;
+}
+
+.course .star:hover {
+  background-color: #fef3c7;
+}
+
+/* The small label: Free / Paid */
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.free {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.paid {
+  background-color: #fee2e2;
+  color: #991b1b;
+}

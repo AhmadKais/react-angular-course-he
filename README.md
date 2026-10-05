@@ -26,7 +26,9 @@
 |:---:|---|---|---|
 | 7 | [React – הפרויקט הראשון, JSX ורכיבים](07-react-first-steps/) | Node.js ו-Vite, שרת הפיתוח, JSX ושישת הכללים, רכיבים, Props, `map` ו-`key` | כרטיסי ביקור – כמה אנשים מאותו רכיב |
 | 8 | [React – State, אירועים וטפסים](08-react-state-and-events/) | `useState`, `onClick`, הצגה בתנאי, שדה מבוקר, `onSubmit`, מערכים ב-State, פונקציה כ-Prop | רשימת המשימות משיעור 6 – ב-React |
-| 9 | React – קטלוג קורסים: חיפוש, סינון ו-`useEffect` | | *בקרוב* |
+| 9 | [React – קטלוג קורסים](09-react-course-catalog/) | State מול ערך מחושב, כמה State-ים יחד, `select`, מיון עם `sort`, רכיבי `value`/`onChange`, להרים State למעלה | קטלוג עם חיפוש, סינון, מיון ומועדפים |
+| 10 | [React – נתונים מהשרת](10-react-fetch-and-effects/) | JSON ו-API, `fetch`, `async`/`await`, `try`/`catch`, `useEffect` ומערך התלויות, טעינה ושגיאה, `localStorage` | הקטלוג נטען מהשרת, והמועדפים נשמרים |
+| 11 | React – ניווט בין דפים (React Router) | | *בקרוב* |
 
 ### חלק ג׳ – Angular
 
